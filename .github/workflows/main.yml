@@ -1,0 +1,88 @@
+on: [push]
+
+name: Build resume
+
+jobs:
+
+  build-resume:
+    runs-on: ubuntu-20.04
+    name: Build resume artifacts
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build resume
+        uses: ./ # Uses an action in the root directory
+        id: build_resume
+        with:
+          theme-package-url: 'https://github.com/rizwan-kh/jsonresume-theme-helloquan/releases/download/v4.5.4/jsonresume-theme-hellokhan-4.5.2.tgz'
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: resume-artifacts
+          path: |
+            resume.html
+            resume.pdf
+
+  release-resume:
+    if: ${{ contains(github.ref, 'refs/tags/') }}
+    needs: build-resume
+    runs-on: ubuntu-20.04
+    name: Release and publish resume
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: resume-artifacts
+
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            Changes in this Release
+            - Trial   
+          draft: false
+          prerelease: false
+
+      - name: Get artifact name
+        id: get_artifact_name
+        run: echo "::set-output name=artifact_name::rizwan-kh-resume-${GITHUB_REF/refs\/tags\//}"
+
+      - name: Upload release HTML
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./resume.html
+          asset_name: ${{ steps.get_artifact_name.outputs.artifact_name }}.html
+          asset_content_type: text/html
+
+      - name: Upload release PDF
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./resume.pdf
+          asset_name: ${{ steps.get_artifact_name.outputs.artifact_name }}.pdf
+          asset_content_type: application/pdf
+
+      - name: Prepare public directory
+        run: |
+          mkdir public
+          cp resume.html public/index.html
+
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

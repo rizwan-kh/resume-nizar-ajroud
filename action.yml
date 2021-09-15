@@ -1,0 +1,13 @@
+# action.yml
+name: 'Build resume'
+description: 'Build a json resume providing a theme package URL'
+inputs:
+  theme-package-url:
+    description: 'URL to download the theme package'
+    required: true
+    default: 'https://github.com/trucngn/jsonresume-theme-helloquan/releases/download/v4.4.0/jsonresume-theme-helloquan-4.4.0.tgz'
+runs:
+  using: 'docker'
+  image: 'ghcr.io/rizwan-kh/resume/resume-builder:latest'
+  args:
+    - ${{ inputs.theme-package-url }}

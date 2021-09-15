@@ -1,0 +1,230 @@
+{ "google_analytics_id": "UA-198799391-1",
+  "basics": {
+    "name": "Rizwan Khan",
+    "label": "DevOps Consultant",
+    "email": "khan.rizwan1@outlook.com",
+    "website": "https://rizwan-kh.github.io/",
+    "summary": "I am a DevOps Consultant with an eye for automation since day one. Versatile team player with a deep commitment to a reliable and successful business, I am eager to learn every day at a high pace.\n\nBased in Dubai Emirates in the United Arab Emirates, I am keen on working remotely too.\n\n_This resume is built and deployed with a [GitHub Actions CI/CD workflow](https://github.com/rizwan-kh/resume)._",
+    "location": {
+      "city": "Dubai",
+      "countryCode": "United Arab Emirates"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "rizwan-khan",
+        "url": "https://www.linkedin.com/in/rizwan-khan/"
+      },
+      {
+        "network": "Github",
+        "username": "@rizwan-kh",
+        "url": "https://github.com/rizwan-kh"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Accenture Middle East BV",
+      "location": "Dubai",
+      "position": "Technology Consultant",
+      "website": "https://www.accenture.com/ae-en",
+      "startDate": "2019-02-17",
+      "summary": "Accenture ME is a leading Management consulting and digital transformation company.",
+      "highlights": [
+        "Created Multiple Terraform based blueprint to deploy AI solutions on AWS, Azure and GCP via Azure DevOps pipeline",
+        "Built from scratch a **cloud native** PaaS to run process-based applications on a fully managed and cost-optimized infrastructure",
+        "Set up **observability** and operate a Kubernetes **multi-cluster** and **multi-tenant** infrastructure with industry standard uptime SLA",
+        "Developed a **continuous delivery** solution for process-based application development and deployment",
+        "Set up **CI/CD as code** for development teams, making release pipelines faster and more sustainable",
+        "Managed IT **infrastructure as code** to ensure reliability of corporate-wise services, both on-premises and on cloud IaaS",
+        "*AWS, Docker, Kubernetes, Helm, Nagios, Prometheus, Python, Ansible, Terraform, Jenkins, Nexus, Shell, Git, Agile*"
+      ]
+    },
+    {
+      "company": "Accenture India Private Limited",
+      "location": "India",
+      "position": "Senior Software Analyst",
+      "website": "https://www.accenture.com/in-en",
+      "startDate": "2015-07-29",
+      "endDate": "2019-02-15",
+      "summary": "Automation and building Tools.",
+      "highlights": [
+        "Automated deployment and installation of packages via Chef",
+        "Automated report generation for AWS, Microsoft Azure",
+        "Generic CI CD template for Python, Java, Node package build and deployment for GitLab and Azure DevOps",
+        "Developed numerous Dockerfile for applications",
+        "Managed a team of 6 for Docker apps creation",
+        "Create a tool to convert Mainframe COBOL code to Gnu COBOL using extensive use of RegEx",
+        "*Docker, Python, Make, Jira, Confluence, GitLab, Jenkins, Chef, Agile, Shell*"
+      ]
+    },
+    {
+      "company": "CMC Limited Private Limited",
+      "location": "Mumbai, India",
+      "position": "Software Engineer",
+      "website": "https://www.cmcltd.com/",
+      "startDate": "2012-08-16",
+      "endDate": "2015-07-15",
+      "summary": "CMC Limited is an award-winning provider of risk and performance management software for financial institutions.",
+      "highlights": [
+        "Built a test framework for automated GUI tests of Adobe Flex applications",
+        "**Automated deployment** tests against J2EE application servers",
+        "Integrated automated tests to a Jenkins CI environment",
+        "Wrote automated tests for Oracle PL/SQL stored procedures",
+        "*Python, XML, RIATest, Ant, Jenkins, Robot Framework, SQL, PL/SQL, Perforce, Agile*"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "DevOps Life & Notes",
+      "publisher": "GitHub Pages",
+      "releaseDate": "2019-05-31",
+      "website": "https://rizwan-kh.github.io",
+      "summary": "Here I put up most of my notes and blog for my reference"
+    }
+  ],
+  "education": [
+    {
+      "institution": "West Bengal University of Technology",
+      "area": "Information Technology",
+      "studyType": "Bachelor of Technology",
+      "startDate": "2008-08-01",
+      "endDate": "2012-06-01",
+      "courses": [
+        "Software Engineering",
+        "Network",
+        "Information Technology"
+      ]
+    },
+    {
+      "institution": "Khalsa English High School",
+      "area": "Science",
+      "studyType": "High School",
+      "startDate": "2004-05-01",
+      "endDate": "2008-06-01",
+      "courses": [
+        "Science",
+        "Mathematics"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cloud Native",
+      "keywords": [
+        "Amazon Web Services",
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "Microsoft Azure",
+        "Google Cloud Platform"
+      ]
+    },
+    {
+      "name": "Monitoring",
+      "keywords": [
+        "Nagios",
+        "Prometheus",
+        "Zabbix"
+      ]
+    },
+    {
+      "name": "Infrastructure as Code",
+      "keywords": [
+        "Terraform",
+        "Ansible"
+      ]
+    },
+    {
+      "name": "Continuous Integration/Delivery",
+      "keywords": [
+        "Jenkins",
+        "GitHub",
+        "Artifactory",
+        "Nexus",
+        "Azure DevOps"
+      ]
+    },
+    {
+      "name": "Scripting and Coding",
+      "keywords": [
+        "Python",
+        "Bash",
+        "Shell",
+        "Git",
+        "YAML",
+        "C++",
+        "Make"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Vim",
+        "Sublime Text"
+      ]
+    }
+  ],
+ "awards": [
+   {
+      "title": "Tech Star FY21",
+      "awarder": "Accenture",
+      "date": "2021-06-30",
+      "summary": "Each year, Accenture selects a handful of employees for this truly unique leadership program and train them for 6 months on leadership roles."
+    },
+    {
+      "title": "Inventor Award Program FY19",
+      "awarder": "Accenture",
+      "date": "2019-12-01",
+      "summary": "Each year, Accenture celebrates unique ideas and an innovation mindset through the Inventor Award Program, which recognizes and rewards employees who file patent applications or have been granted patents in the previous fiscal year."
+    },
+    {
+      "title": "Accenture Celebrates Excellence(ACE) - FY19 Q4",
+      "awarder": "Accenture",
+      "date": "2019-08-01",
+      "summary": "Awarded the Client and Customer Award in the individual category for outstanding contribution to client's business outcomes.\n\nThe ACE awards program is the formal entity Rewards and Recognition program intended to recognize individuals and teams for demonstrating behavior that contributes to the success of the organization. It celebrates the true spirit of our colleagues who have performed ‘Greater Than’ and applauds people who have consistently delivered results that exceed expectations, individually and as teams."
+    },
+    {
+      "title": "Accenture Celebrates Excellence(ACE) - FY18 Q3",
+      "awarder": "Accenture",
+      "date": "2018-04-01",
+      "summary": "Awarded the Future Ready Skills Award in the individual category for consistently applying IT skills in client projects and positioning Accenture for future growth.\n\nThe ACE awards program is the formal entity Rewards and Recognition program intended to recognize individuals and teams for demonstrating behavior that contributes to the success of the organization. It celebrates the true spirit of our colleagues who have performed ‘Greater Than’ and applauds people who have consistently delivered results that exceed expectations, individually and as teams."
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Football",
+      "summary": "Practicing and played football for many years, I also competed on the district stage with some success leading the Accenture Kolkata Football team as well as College Football team",
+      "keywords": [
+        "Work ethic",
+        "Perseverance",
+        "Mentoring",
+        "Focus",
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Traveling",
+      "summary": "My favorite way to experience new cultures. Making and planning annual trips to different countries is a challenge I like to embrace. Some places I have traveled to: the UAE, Bhutan, Nepal, Bangladesh.",
+      "keywords": [
+        "Curiosity",
+        "Organization",
+        "Diversity",
+        "Adaptability",
+        "Awareness"
+      ]
+    }
+  ]
+
+}
