@@ -15,7 +15,7 @@ jobs:
         uses: ./ # Uses an action in the root directory
         id: build_resume
         with:
-          theme-package-url: 'https://github.com/rizwan-kh/jsonresume-theme-helloquan/releases/download/v4.5.4/jsonresume-theme-hellokhan-4.5.2.tgz'
+          theme-package-url: 'https://github.com/nizarrwk/resume-nizar-ajroud/blob/main/themes/jsonresume-theme-hellokhan-4.5.2.tgz'
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
