@@ -1,44 +1,44 @@
 { "google_analytics_id": "UA-198799391-1",
   "basics": {
-    "name": "Rizwan Khan",
-    "label": "DevOps Consultant",
-    "email": "khan.rizwan1@outlook.com",
-    "website": "https://rizwan-kh.github.io/",
-    "summary": "I am a DevOps Consultant with an eye for automation since day one. Versatile team player with a deep commitment to a reliable and successful business, I am eager to learn every day at a high pace.\n\nBased in Dubai Emirates in the United Arab Emirates, I am keen on working remotely too.\n\n_This resume is built and deployed with a [GitHub Actions CI/CD workflow](https://github.com/rizwan-kh/resume)._",
+    "name": "Nizar Ajroud",
+    "label": "DevOps Specialist",
+    "email": "nizar.ajroud@gmail.com",
+    "website": "https://nizar-ajroud.github.io/",
+    "summary": "I am a DevOps Specialist with an eye for automation since day one. Versatile team player with a deep commitment to a reliable and successful business, I am eager to learn every day at a high pace.\n\nBased in Tunisia, I am keen on working remotely too.\n\n_This resume is built and deployed with a [GitHub Actions CI/CD workflow](https://github.com/nizar-ajroud/resume)._",
     "location": {
-      "city": "Dubai",
-      "countryCode": "United Arab Emirates"
+      "city": "Tunisia",
+      "countryCode": "Tunisia"
     },
     "profiles": [
       {
         "network": "Linkedin",
-        "username": "rizwan-khan",
-        "url": "https://www.linkedin.com/in/rizwan-khan/"
+        "username": "nizarajroud",
+        "url": "https://www.linkedin.com/in/nizarajroud/"
       },
       {
         "network": "Github",
-        "username": "@rizwan-kh",
-        "url": "https://github.com/rizwan-kh"
+        "username": "@nizarrwk",
+        "url": "https://github.com/nizarrwk"
       }
     ]
   },
   "work": [
     {
-      "company": "Accenture Middle East BV",
-      "location": "Dubai",
-      "position": "Technology Consultant",
-      "website": "https://www.accenture.com/ae-en",
-      "startDate": "2019-02-17",
-      "summary": "Accenture ME is a leading Management consulting and digital transformation company.",
+      "company": "Sofrecom Tunisia",
+      "location": "Tunisia",
+      "position": "Technical Lead",
+      "website": "https://www.sofrecom.com/",
+      "startDate": "2015-07-01",
+      "summary": "In relation with the Management, I manage 4 teams RCD,AGC, PSC and BAD3 (Project Managers, Product Owners, Technical Managers, Design and Development Engineers, Exploitation Engineers) and I stimulate their performance by coordinating the projects, I support the project managers in the development of relevant technical solutions:
+      ",
       "highlights": [
-        "Created Multiple Terraform based blueprint to deploy AI solutions on AWS, Azure and GCP via Azure DevOps pipeline",
-        "Built from scratch a **cloud native** PaaS to run process-based applications on a fully managed and cost-optimized infrastructure",
-        "Set up **observability** and operate a Kubernetes **multi-cluster** and **multi-tenant** infrastructure with industry standard uptime SLA",
-        "Developed a **continuous delivery** solution for process-based application development and deployment",
-        "Set up **CI/CD as code** for development teams, making release pipelines faster and more sustainable",
+        "**Lead**: Animate, coordinate, develop and manage the cluster to achieve the objectives set within the strategy determined by the project leaders.",
+        "**Architecture** : Design application deployment architecture and virtual infrastructure",
+        "**Orchestration**: Orchestrate the provisioning, load balancing, dynamic configuration, monitoring and spend optimization of servers in the cloud environment.",
+        "**Monitoring**: Customize monitoring and alerting for new technologies and services",
+        "**Post-Delivery Analysis**: Perform root cause analysis of production impacting issues, including opening problem cases with vendors and driving them to conclusion.",
         "Managed IT **infrastructure as code** to ensure reliability of corporate-wise services, both on-premises and on cloud IaaS",
-        "*AWS, Docker, Kubernetes, Helm, Nagios, Prometheus, Python, Ansible, Terraform, Jenkins, Nexus, Shell, Git, Agile*"
-      ]
+        "*AWS, Docker, Kubernetes, Helm, Nagios, Prometheus, Python, Ansible, Terraform, Jenkins, Nexus, Shell, Git, Agile*"      ]
     },
     {
       "company": "Accenture India Private Limited",
