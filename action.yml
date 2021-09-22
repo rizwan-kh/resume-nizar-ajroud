@@ -8,6 +8,6 @@ inputs:
     default: 'https://github.com/trucngn/jsonresume-theme-helloquan/releases/download/v4.4.0/jsonresume-theme-helloquan-4.4.0.tgz'
 runs:
   using: 'docker'
-  image: 'ghcr.io/nizarrwk/resume/resume-builder:latest'
+  image: 'ghcr.io/nizarrwk/resume-nizar-ajroud/resume-builder:latest'
   args:
     - ${{ inputs.theme-package-url }}
