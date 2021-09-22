@@ -3,7 +3,16 @@ on: [push]
 name: Build resume
 
 jobs:
-
+  login:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Login to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
   build-resume:
     runs-on: ubuntu-20.04
     name: Build resume artifacts
