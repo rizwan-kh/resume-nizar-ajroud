@@ -7,7 +7,7 @@ cd ${WORKDIR}
 
 # retrieve and install jsonresume theme
 wget "$1" -O /theme.tgz
- npm install /theme.tgz -g
+npm install /theme.tgz
 package_name=$(npm pack /theme.tgz --dry-run 2>&1 | grep "^npm notice name:" | sed 's/npm notice name:\([ ]*\)\(.*\)/\2/')
 
 # export to HTML
