@@ -21,6 +21,18 @@
         "username": "@nizarrwk",
         "url": "https://github.com/nizarrwk"
       }
+    ],
+    "certifications": [
+      {
+        "Certificate ": "CKA ( Certified Kubernetes Administrator)",
+        "Organism": "The Linux Fondation",
+        "url": "https://www.youracclaim.com/badges/29e046bd-29cb-4d02-8aa0-9f4d9c119e67?source=linked_in_profile"
+      },
+      {
+        "Certificate ": "AWS Certified Solutions Architect – Associate",
+        "Organism": "Amazon Web Services (AWS)",
+        "url": "https://www.credly.com/badges/b8d3de3e-cd45-4f05-ab0f-70e9ff777fcd/linked_in_profile"
+      }
     ]
   },
   "work": [
@@ -88,18 +100,6 @@
         "Develop Unit Test plans",
         "*XML, Ant, Jenkins, Robot Framework, SQL, PL/SQL, Agile*"
       ]
-    }
-  ],
-  "Certifications": [
-    {
-      "Certificate ": "CKA -Certified Kubernetes Administrator",
-      "Organism": "The Linux Fondation",
-      "releaseDate": "2020-12-20"
-    },
-    {
-      "Certificate ": "AWS Certified Solutions Architect – Associate",
-      "Organism": "Amazon Web Services",
-      "releaseDate": "2021-06-01"
     }
   ],
   "education": [
