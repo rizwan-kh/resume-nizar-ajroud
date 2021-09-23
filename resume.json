@@ -92,15 +92,13 @@
   ],
   "Certifications": [
     {
-      "Certificate ": "CKA ( Certified Kubernetes Administrator)",
+      "Certificate ": "CKA -Certified Kubernetes Administrator",
       "Organism": "The Linux Fondation",
-      "Verification URL": "https://www.youracclaim.com/badges/29e046bd-29cb-4d02-8aa0-9f4d9c119e67?source=linked_in_profile",
       "releaseDate": "2020-12-20"
     },
     {
       "Certificate ": "AWS Certified Solutions Architect – Associate",
-      "Organism": "Amazon Web Services (AWS)",
-      "Verification URL": "https://www.credly.com/badges/b8d3de3e-cd45-4f05-ab0f-70e9ff777fcd/linked_in_profile",
+      "Organism": "Amazon Web Services",
       "releaseDate": "2021-06-01"
     }
   ],
