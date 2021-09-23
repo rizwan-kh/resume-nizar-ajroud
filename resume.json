@@ -21,18 +21,6 @@
         "username": "@nizarrwk",
         "url": "https://github.com/nizarrwk"
       }
-    ],
-    "certifications": [
-      {
-        "Certificate ": "CKA ( Certified Kubernetes Administrator)",
-        "Organism": "The Linux Fondation",
-        "url": "https://www.youracclaim.com/badges/29e046bd-29cb-4d02-8aa0-9f4d9c119e67?source=linked_in_profile"
-      },
-      {
-        "Certificate ": "AWS Certified Solutions Architect – Associate",
-        "Organism": "Amazon Web Services (AWS)",
-        "url": "https://www.credly.com/badges/b8d3de3e-cd45-4f05-ab0f-70e9ff777fcd/linked_in_profile"
-      }
     ]
   },
   "work": [
@@ -200,6 +188,32 @@
       ]
     }
   ],
+  "certifications": [
+    {
+       "title": "Tech Star FY21",
+       "awarder": "Accenture",
+       "date": "2021-06-30",
+       "summary": "Each year, Accenture selects a handful of employees for this truly unique leadership program and train them for 6 months on leadership roles."
+     },
+     {
+       "title": "Inventor Award Program FY19",
+       "awarder": "Accenture",
+       "date": "2019-12-01",
+       "summary": "Each year, Accenture celebrates unique ideas and an innovation mindset through the Inventor Award Program, which recognizes and rewards employees who file patent applications or have been granted patents in the previous fiscal year."
+     },
+     {
+       "title": "Accenture Celebrates Excellence(ACE) - FY19 Q4",
+       "awarder": "Accenture",
+       "date": "2019-08-01",
+       "summary": "Awarded the Client and Customer Award in the individual category for outstanding contribution to client's business outcomes.\n\nThe ACE awards program is the formal entity Rewards and Recognition program intended to recognize individuals and teams for demonstrating behavior that contributes to the success of the organization. It celebrates the true spirit of our colleagues who have performed ‘Greater Than’ and applauds people who have consistently delivered results that exceed expectations, individually and as teams."
+     },
+     {
+       "title": "Accenture Celebrates Excellence(ACE) - FY18 Q3",
+       "awarder": "Accenture",
+       "date": "2018-04-01",
+       "summary": "Awarded the Future Ready Skills Award in the individual category for consistently applying IT skills in client projects and positioning Accenture for future growth.\n\nThe ACE awards program is the formal entity Rewards and Recognition program intended to recognize individuals and teams for demonstrating behavior that contributes to the success of the organization. It celebrates the true spirit of our colleagues who have performed ‘Greater Than’ and applauds people who have consistently delivered results that exceed expectations, individually and as teams."
+     }
+   ],
   "languages": [
     {
       "language": "English",
