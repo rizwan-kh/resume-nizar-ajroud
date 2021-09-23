@@ -131,58 +131,74 @@
   ],
   "skills": [
     {
-      "name": "Cloud Native",
+      "name": "Orchestration",
       "keywords": [
-        "Amazon Web Services",
-        "Docker",
         "Kubernetes",
-        "Helm",
-        "Microsoft Azure",
-        "Google Cloud Platform"
+        "Docker Swarm"
       ]
     },
     {
-      "name": "Monitoring",
+      "name": "Cloud & PaaS Environment",
       "keywords": [
-        "Nagios",
-        "Prometheus",
-        "Zabbix"
+        "AWS",
+        "GCP",
+        "Openshift",
+        "OpenStack"
       ]
     },
     {
-      "name": "Infrastructure as Code",
+      "name": "Cloud\nServerLess/Containers",
+      "keywords": [
+        "Lambda",
+        "API GATEWAY",
+        "ECS/EKS",
+        "FARGATE"
+      ]
+    },
+    {
+      "name": "Infra as Code and Config Mgmt",
       "keywords": [
         "Terraform",
         "Ansible"
       ]
     },
     {
-      "name": "Continuous Integration/Delivery",
+      "name": "Code Management",
       "keywords": [
-        "Jenkins",
-        "GitHub",
-        "Artifactory",
+        "Maven",
+        "Gradle",
+        "Grunt"
+      ]
+    },
+    {
+      "name": "Artifact Management",
+      "keywords": [
         "Nexus",
-        "Azure DevOps"
+        "Bower",
+        "NPM"
       ]
     },
     {
-      "name": "Scripting and Coding",
+      "name": "Databases/DB\nManagement",
       "keywords": [
-        "Python",
-        "Bash",
-        "Shell",
-        "Git",
-        "YAML",
-        "C++",
-        "Make"
+        "MySQL/Aurora",
+        "Postgres SQL"
       ]
     },
     {
-      "name": "Tools",
+      "name": "Testing tools",
       "keywords": [
-        "Vim",
-        "Sublime Text"
+        "JUNIT",
+        "JASMINE",
+        "Karma"
+      ]
+    },
+    {
+      "name": "Monitoring/Logging",
+      "keywords": [
+        "ELK / KIBANA",
+        "Cloudwatch/CloudTrail",
+        "Prometheus / Grafana /"
       ]
     }
   ],
