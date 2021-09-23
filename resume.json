@@ -1,5 +1,5 @@
 {
-  "google_analytics_id": "TN-999999999-1",
+  "google_analytics_id": "UA-198799391-1",
   "basics": {
     "name": "NIZAR AJROUD",
     "label": "DevOps Specialist",
@@ -29,7 +29,7 @@
       "location": "Tunisia",
       "position": "Technical Manager",
       "website": "https://www.sofrecom.com/",
-      "startDate": "2015-07-01",
+      "startDate": "2017-11-01",
       "summary": "In relation with the Management, I manage 4 teams RCD,AGC, PSC and BAD3 (Project Managers, Product Owners, Technical Managers, Design and Development Engineers, Exploitation Engineers) and I stimulate their performance by coordinating the projects, I support the project managers in the development of relevant technical solutions.",
       "highlights": [
         "**Lead**: Animate, coordinate, develop and manage the cluster to achieve the objectives set within the strategy determined by the project leaders.",
@@ -41,56 +41,76 @@
       ]
     },
     {
-      "company": "Accenture India Private Limited",
-      "location": "India",
-      "position": "Senior Software Analyst",
-      "website": "https://www.accenture.com/in-en",
-      "startDate": "2015-07-29",
-      "endDate": "2019-02-15",
-      "summary": "Automation and building Tools.",
+      "company": "Sofrecom Tunisia",
+      "location": "Tunisia",
+      "position": "DevOps Lead | Scrum Master",
+      "website": "https://www.sofrecom.com/",
+      "startDate": "2015-07-01",
+      "endDate": "2017-10-30",
+      "summary": "Technical coordination between the different project stakeholders: Collaboration with development teams, QA test, Releases managers, operating teams and infrastructure teams to maintain a quality level of deliverables throughout the flow deployment.",
       "highlights": [
-        "Automated deployment and installation of packages via Chef",
-        "Automated report generation for AWS, Microsoft Azure",
-        "Generic CI CD template for Python, Java, Node package build and deployment for GitLab and Azure DevOps",
-        "Developed numerous Dockerfile for applications",
-        "Managed a team of 6 for Docker apps creation",
-        "Create a tool to convert Mainframe COBOL code to Gnu COBOL using extensive use of RegEx",
-        "*Docker, Python, Make, Jira, Confluence, GitLab, Jenkins, Chef, Agile, Shell*"
+        "Recommendations and implementation of automation to the extent possible for each stage of the deliverables flow (Change Report, Merges, Deliverables Generation, Unit Testing / Integration / Acceptance, Deployment).",
+        "Implementation and management of the various functionalities of the continuous integration platform.",
+        "Documentation of all DevOps processes and practices put in place.",
+        " Animation of different scrum ceremonies.",
+        "Support of the POs on the preparation and prioritization phases of the different sprints.",
+        "Sensitization of teams and organization to the risks and management of the technical debt.",
+        "Drafting of sprint reports based on feedback from the team and relevant indicators (US burndown, team Mood, Velocity, Definition of Done, cycle time, lead time, etc.)."
       ]
     },
     {
-      "company": "CMC Limited Private Limited",
-      "location": "Mumbai, India",
-      "position": "Software Engineer",
-      "website": "https://www.cmcltd.com/",
-      "startDate": "2012-08-16",
-      "endDate": "2015-07-15",
-      "summary": "CMC Limited is an award-winning provider of risk and performance management software for financial institutions.",
+      "company": "TELNET",
+      "location": "Tunisia",
+      "position": "Senior Software Engineer",
+      "website": "https://www.groupe-telnet.com/",
+      "startDate": "2013-04-01",
+      "endDate": "2015-05-30",
+      "summary": "design and Implement customer requirements.",
       "highlights": [
-        "Built a test framework for automated GUI tests of Adobe Flex applications",
+        "Provide estimations for new development tasks .",
+        "High and low level design for new development components.",
+        "Implementation of new components and perform unitary tests .",
+        "Prepare technical and delivery documents (Release/Delivery Note, Administration Guide and User Guide).",
+        "*Docker, Python, Make, Jira, Confluence, GitLab, Jenkins, Agile, Shell*"
+      ]
+    },
+    {
+      "company": "TELNET",
+      "location": "Tunisia",
+      "position": "Software Engineer",
+      "website": "https://www.groupe-telnet.com/",
+      "startDate": "2010-08-01",
+      "endDate": "2013-03-30",
+      "summary": "Design and programming desktop and Mobile applications ( Android OS)",
+      "highlights": [
         "**Automated deployment** tests against J2EE application servers",
         "Integrated automated tests to a Jenkins CI environment",
-        "Wrote automated tests for Oracle PL/SQL stored procedures",
-        "*Python, XML, RIATest, Ant, Jenkins, Robot Framework, SQL, PL/SQL, Perforce, Agile*"
+        "Develop Unit Test plans",
+        "*XML, Ant, Jenkins, Robot Framework, SQL, PL/SQL, Agile*"
       ]
     }
   ],
-  "publications": [
+  "Certifications": [
     {
-      "name": "DevOps Life & Notes",
-      "publisher": "GitHub Pages",
-      "releaseDate": "2019-05-31",
-      "website": "https://rizwan-kh.github.io",
-      "summary": "Here I put up most of my notes and blog for my reference"
+      "Certificate ": "CKA ( Certified Kubernetes Administrator)",
+      "Organism": "The Linux Fondation",
+      "Verification URL": "https://www.youracclaim.com/badges/29e046bd-29cb-4d02-8aa0-9f4d9c119e67?source=linked_in_profile",
+      "releaseDate": "2020-12-20"
+    },
+    {
+      "Certificate ": "AWS Certified Solutions Architect – Associate",
+      "Organism": "Amazon Web Services (AWS)",
+      "Verification URL": "https://www.credly.com/badges/b8d3de3e-cd45-4f05-ab0f-70e9ff777fcd/linked_in_profile",
+      "releaseDate": "2021-06-01"
     }
   ],
   "education": [
     {
-      "institution": "West Bengal University of Technology",
-      "area": "Information Technology",
-      "studyType": "Bachelor of Technology",
-      "startDate": "2008-08-01",
-      "endDate": "2012-06-01",
+      "institution": "National School of computer Sciences (ENSI)",
+      "area": "ENGINEERING DIPLOMA IN COMPUTER SCIENCE",
+      "studyType": "ENGINEERING DIPLOMA",
+      "startDate": "2008-09-15",
+      "endDate": "2010-06-01",
       "courses": [
         "Software Engineering",
         "Network",
@@ -98,14 +118,14 @@
       ]
     },
     {
-      "institution": "Khalsa English High School",
-      "area": "Science",
+      "institution": "High School of computer Science and Multimedia(ISIMS)",
+      "area": "MASTER LEVEL DEGREE IN COMPUTER SCIENCE",
       "studyType": "High School",
-      "startDate": "2004-05-01",
-      "endDate": "2008-06-01",
+      "startDate": "2006-09-15",
+      "endDate": "2008-06-30",
       "courses": [
-        "Science",
-        "Mathematics"
+        "Programming Languages: PHP, C, Shell",
+        "Algorithms"
       ]
     }
   ],
@@ -166,57 +186,30 @@
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "Tech Star FY21",
-      "awarder": "Accenture",
-      "date": "2021-06-30",
-      "summary": "Each year, Accenture selects a handful of employees for this truly unique leadership program and train them for 6 months on leadership roles."
-    },
-    {
-      "title": "Inventor Award Program FY19",
-      "awarder": "Accenture",
-      "date": "2019-12-01",
-      "summary": "Each year, Accenture celebrates unique ideas and an innovation mindset through the Inventor Award Program, which recognizes and rewards employees who file patent applications or have been granted patents in the previous fiscal year."
-    },
-    {
-      "title": "Accenture Celebrates Excellence(ACE) - FY19 Q4",
-      "awarder": "Accenture",
-      "date": "2019-08-01",
-      "summary": "Awarded the Client and Customer Award in the individual category for outstanding contribution to client's business outcomes.\n\nThe ACE awards program is the formal entity Rewards and Recognition program intended to recognize individuals and teams for demonstrating behavior that contributes to the success of the organization. It celebrates the true spirit of our colleagues who have performed ‘Greater Than’ and applauds people who have consistently delivered results that exceed expectations, individually and as teams."
-    },
-    {
-      "title": "Accenture Celebrates Excellence(ACE) - FY18 Q3",
-      "awarder": "Accenture",
-      "date": "2018-04-01",
-      "summary": "Awarded the Future Ready Skills Award in the individual category for consistently applying IT skills in client projects and positioning Accenture for future growth.\n\nThe ACE awards program is the formal entity Rewards and Recognition program intended to recognize individuals and teams for demonstrating behavior that contributes to the success of the organization. It celebrates the true spirit of our colleagues who have performed ‘Greater Than’ and applauds people who have consistently delivered results that exceed expectations, individually and as teams."
-    }
-  ],
   "languages": [
     {
       "language": "English",
       "fluency": "Fluent"
     },
     {
-      "language": "Hindi",
-      "fluency": "Native speaker"
+      "language": "French",
+      "fluency": "Fluent"
     }
   ],
   "interests": [
     {
-      "name": "Football",
-      "summary": "Practicing and played football for many years, I also competed on the district stage with some success leading the Accenture Kolkata Football team as well as College Football team",
+      "name": "Sports",
+      "summary": "Fitness/crossfit",
       "keywords": [
         "Work ethic",
         "Perseverance",
         "Mentoring",
-        "Focus",
-        "Leadership"
+        "Focus"
       ]
     },
     {
       "name": "Traveling",
-      "summary": "My favorite way to experience new cultures. Making and planning annual trips to different countries is a challenge I like to embrace. Some places I have traveled to: the UAE, Bhutan, Nepal, Bangladesh.",
+      "summary": "My favorite way to experience new cultures. Making and planning annual trips to different countries is a challenge I like to embrace. ",
       "keywords": [
         "Curiosity",
         "Organization",
