@@ -6,8 +6,8 @@ WORKDIR=${WORKDIR:-/github/workspace}
 cd ${WORKDIR}
 
 # retrieve and install jsonresume theme
-wget "$1" -O /theme.tgz
-npm install /theme.tgz
+wget "$1" -O /theme.tar
+npm install /theme.tar
 package_name=$(npm pack /theme.tgz --dry-run 2>&1 | grep "^npm notice name:" | sed 's/npm notice name:\([ ]*\)\(.*\)/\2/')
 
 # export to HTML
