@@ -27,7 +27,7 @@ jobs:
             resume.pdf
 
   release-resume:
-    if: ${{ contains(github.ref, 'refs/tags/') }}
+    #if: ${{ contains(github.ref, 'refs/tags/') }}
     needs: build-resume
     runs-on: ubuntu-20.04
     name: Release and publish resume
