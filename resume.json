@@ -3,9 +3,9 @@
   "basics": {
     "name": "NIZAR AJROUD ",
     "label": "DevOps Specialist",
-    "email": "nizar.ajroud@gmail.com",
+    "email": "nizar.ajroud@alithya.com",
     "website": "https://nizar-ajroud.github.io/",
-    "summary": "I am a DevOps Specialist( Certified [AWS](https://www.credly.com/badges/b8d3de3e-cd45-4f05-ab0f-70e9ff777fcd/linked_in_profile), [CKA](https://www.youracclaim.com/badges/29e046bd-29cb-4d02-8aa0-9f4d9c119e67?source=linked_in_profile)) with an eye for automation since day one. Versatile team player with a deep commitment to a reliable and successful business, I am eager to learn every day at a high pace.\n\nBased in Sofrecom in Tunisia , I am keen on working remotely too.\n\n_This resume is built and deployed with a [GitHub Actions CI/CD workflow](https://github.com/nizarrwk/resume)._",
+    "summary": "I am a DevOps Specialist( Certified [AWS](https://www.credly.com/badges/b8d3de3e-cd45-4f05-ab0f-70e9ff777fcd/linked_in_profile), [CKA](https://www.youracclaim.com/badges/29e046bd-29cb-4d02-8aa0-9f4d9c119e67?source=linked_in_profile) and [Terraform](https://www.credly.com/badges/64911168-fc30-4684-ba49-0d984fbca5e8)) with an eye for automation since day one. Versatile team player with a deep commitment to a reliable and successful business, I am eager to learn every day at a high pace.\n\nBased in Sofrecom in Tunisia , I am keen on working remotely too.\n\n_This resume is built and deployed with a [GitHub Actions CI/CD workflow](https://github.com/nizarrwk/resume-nizar-ajroud/actions)._",
     "location": {
       "city": "Tunisia",
       "countryCode": "Tunisia"
@@ -19,11 +19,22 @@
       {
         "network": "Github",
         "username": "@nizarrwk",
-        "url": "https://github.com/nizarrwk"
+        "url": "https://nizarrwk.github.io/resume-nizar-ajroud/"
       }
     ]
   },
   "work": [
+    {
+      "company": "Alithya",
+      "location": "Canada",
+      "position": "DevOps Specialist",
+      "website": "https://www.sofrecom.com/",
+      "startDate": "2022-07-04",
+      "summary": "Recently integrated Alithya as Devops Specialist.",
+      "highlights": [
+        "*AWS, Docker, Kubernetes, Helm, Ansible, Terraform, Jenkins, Shell, Git, Agile*"
+      ]
+    },  
     {
       "company": "Sofrecom Tunisia",
       "location": "Tunisia",
